@@ -1,0 +1,53 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  background-color: black;
+}
+
+body{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  color: white;
+}
+
+.image_me{
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.name{
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+.artwork{
+  text-align: center;
+}
+
+a:hover{
+  color: grey;
+}
+
+.images{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 50px;
+}
+
+.image1{
+  padding: 50px;
+}
+
+.group_links{
+  font-size: 20px;
+}
+
+.group_name{
+  font-size: 20px;
+}
